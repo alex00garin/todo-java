@@ -21,7 +21,7 @@ public class ToDoApp extends Application {
         // Initialize the UI components
         FXMLLoader loader = new FXMLLoader(getClass().getResource("todo.fxml"));
         AnchorPane root = loader.load();
-        Scene scene = new Scene(root, 700, 500);
+        Scene scene = new Scene(root, 600, 500);
         primaryStage.setScene(scene);
 
         // Show the primary stage
